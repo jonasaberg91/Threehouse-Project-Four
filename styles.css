@@ -1,0 +1,47 @@
+html,body {
+	font-family: 'Open-Sans', sans-serif;
+}
+
+img {
+	max-width: 100%;
+	height: auto;
+	display: block;
+}
+
+main {
+	max-width: 1024px;
+	margin: 0 auto;
+}
+
+.search {	
+	display: block;
+	margin: 32px auto 0 auto;
+	font-size: 16px;
+	padding: 12px;
+	min-width: 300px;
+	border-radius: 4px;
+	border: 2px solid #e5e5e5;
+}
+
+main .container {
+	margin-top: 8px;
+	clear: both;
+	overflow: auto;
+}
+
+#pictures .list li {
+	display: inline-block;
+	margin: 24px;
+	padding: 0;
+}
+
+ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+.list li p {
+	display: none;
+}
+
